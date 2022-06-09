@@ -8,7 +8,8 @@ import java.util.Scanner;
  */
 public class Exercicio04 {
 
-    /* 4. Faça um Programa que recebe dois números como argumentos e
+    /* 
+     4. Faça um Programa que recebe dois números como argumentos e
           imprima a soma.
      */
     public static void main(String[] args) {
