@@ -1,4 +1,3 @@
-
 package Variaveis;
 
 import java.util.Scanner;
@@ -14,7 +13,17 @@ public class Exercicio05 {
           true se ele for ano bissexto e false se não for.
      */
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner digite = new Scanner(System.in);
+        System.out.println("Digite um ano: ");
+        int num = digite.nextInt();
+        int resultado = num % 4;
+
+        if (resultado > 0) {
+            System.out.println("O ano " + num + " não é bissexto");
+        } else {
+            System.out.println("O ano " + num + " é bissexto");
+        }
+
     }
-    
+
 }
