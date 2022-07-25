@@ -8,10 +8,6 @@ import java.util.Scanner;
  */
 public class Exercicio06 {
 
-    /**
-     * @param args the command line arguments
-     */
-   
     /*6.Faça um Programa que recebe como argumento as 4 notas bimestrais e
          mostre a média.  */
     
